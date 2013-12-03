@@ -9,4 +9,9 @@
     <string name="action_new_point_label">New point</string>
     <string name="action_save_map_label">Save</string>
     <string name="action_show_pos_label">My Position</string>
+    <string name="dialog_title">Please enter coordinates</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">cancel</string><string name="latitude">latitude</string><string name="longitude">longitude</string>
+    <string name="map_title">map title</string>
+    <string name="dialog_map_title">Enter Map Title</string>
 </resources>
