@@ -1,0 +1,16 @@
+package pl.edu.agh.kt.MapBook;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: adba
+ * Date: 03.12.13
+ */
+public class ExplorerActivity extends Activity {
+  public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.explorer);
+  }
+}

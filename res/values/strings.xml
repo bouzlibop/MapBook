@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MapBook</string>
+    <string name="explorerBtnLabel">Explore new map</string>
+    <string name="catalogueBtnLabel">View maps catalogue</string>
+    <string name="explorerActivityLabel">Explorer</string>
+    <string name="catalogueActivityLabel">Catalogue</string>
+</resources>
