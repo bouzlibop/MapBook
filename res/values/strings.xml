@@ -5,4 +5,8 @@
     <string name="catalogueBtnLabel">View maps catalogue</string>
     <string name="explorerActivityLabel">Explorer</string>
     <string name="catalogueActivityLabel">Catalogue</string>
+    <string name="action_new_map_label">Explore map</string>
+    <string name="action_new_point_label">New point</string>
+    <string name="action_save_map_label">Save</string>
+    <string name="action_show_pos_label">My Position</string>
 </resources>

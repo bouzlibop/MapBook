@@ -3,10 +3,12 @@
           package="pl.edu.agh.kt.MapBook"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="18"/>
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="18"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="MainActivity"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Holo.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -15,10 +17,14 @@
         <activity
                 android:name="ExplorerActivity"
                 android:label="@string/explorerActivityLabel"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="portrait"
                 android:parentActivityName="MainActivity">
         </activity>
         <activity android:name="CatalogueActivity"
                   android:label="@string/catalogueActivityLabel"
+                  android:theme="@android:style/Theme.Holo.Light"
+                  android:screenOrientation="portrait"
                   android:parentActivityName="MainActivity">
         </activity>
     </application>
